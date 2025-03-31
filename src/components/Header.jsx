@@ -1,20 +1,20 @@
-import './Header.css';
+import './componentsStyle/Header.css';
 import Logo from '../images/Logo.svg';
 import Search from '../images/Search.svg';
 import Cart from '../images/Cart.svg';
-
+import { Link, NavLink } from 'react-router-dom';
 
 
 export default function Header() {
     return (
         <div className='green-bg'>
             <div className='wrapper header'>
-                <a href="#"><img src={Logo} alt="Logo" /></a>
+                <Link to='/' ><img src={Logo} alt="Logo" /></Link>
                 <nav className='header-links'>
-                    <a href="#">Home</a>
-                    <a href="#">Products</a>
-                    <a href="#">About us</a>
-                    <a href="#">Contacts</a>
+                    <NavLink to='/' end>Home</NavLink>
+                    <NavLink to='/products' end>Products</NavLink>
+                    <NavLink to='/about' end>About us</NavLink>
+                    <NavLink to='/contant' end>Contacts</NavLink>
                 </nav>
                 <div className='header-right'>
                     <div className='header-search'>

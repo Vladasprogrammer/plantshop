@@ -1,0 +1,7 @@
+.hot-card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 50px 0 100px 0;
+}

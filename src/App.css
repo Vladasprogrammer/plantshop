@@ -8,7 +8,7 @@
   --white: #fff;
 }
 
-* { 
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -19,11 +19,19 @@
   max-width: 1260px;
   margin: 0 auto;
   padding: 0 20px;
-  font-family: "Poppins";
+  font-family: "Poppins", serif;
   font-style: normal;
 }
 
-.light-bg {
+.light-bg{
   background-color: var(--bggreen);
   overflow: hidden;
+}
+
+.header-links a.active {
+  color: var(--green);
+}
+
+.header-links a.hover {
+  border-bottom: 2px solid var(--green);
 }
