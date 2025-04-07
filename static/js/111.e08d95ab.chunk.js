@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkplantshop=self.webpackChunkplantshop||[]).push([[111],{4111:(s,e,p)=>{s.exports=p.p+"static/media/airPurifying.05379615694320072eec.svg"}}]);

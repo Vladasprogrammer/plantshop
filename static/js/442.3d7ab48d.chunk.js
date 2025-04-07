@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkplantshop=self.webpackChunkplantshop||[]).push([[442],{5442:(e,p,a)=>{e.exports=a.p+"static/media/fiddle_leaf_fig.676ebca07034a2eb565c.jpg"}}]);

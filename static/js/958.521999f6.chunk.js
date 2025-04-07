@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkplantshop=self.webpackChunkplantshop||[]).push([[958],{2958:(a,s,e)=>{a.exports=e.p+"static/media/african.f84385989a3ebedb9af8.svg"}}]);

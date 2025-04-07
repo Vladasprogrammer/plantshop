@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkplantshop=self.webpackChunkplantshop||[]).push([[47],{1047:(p,s,a)=>{p.exports=a.p+"static/media/pothos.985740cde0a5df7d0a86.jpg"}}]);

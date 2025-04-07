@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkplantshop=self.webpackChunkplantshop||[]).push([[174],{3174:(s,e,p)=>{s.exports=p.p+"static/media/neon.80b9fdeb4ca544932379.svg"}}]);

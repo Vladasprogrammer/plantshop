@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkplantshop=self.webpackChunkplantshop||[]).push([[356],{6975:(p,s,a)=>{p.exports=a.p+"static/media/spider_plant.fa97f1926ff0292360db.jpg"}}]);

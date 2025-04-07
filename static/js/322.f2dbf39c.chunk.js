@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkplantshop=self.webpackChunkplantshop||[]).push([[322],{8322:(s,a,p)=>{s.exports=p.p+"static/media/bonsai.a363d671fde80f90a170.svg"}}]);
