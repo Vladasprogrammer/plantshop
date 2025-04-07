@@ -1,6 +1,9 @@
+.section-hot {
+  padding: 20px 0 100px 0px;
+}
+
 .light-bg {
   background: var(--bggreen);
-  padding: 20px 0;
   width: 100%;
   
 }

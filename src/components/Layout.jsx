@@ -1,9 +1,12 @@
-import { Outlet } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 import Footer from "./Footer";
 import Header from "./Header";
 import TopBaner from "./TopBanner";
 
 export default function Layout() {
+
+  const location = useLocation();
+  const isHomePage = location.pathname === '/';
 
   return (
     <>
@@ -12,7 +15,7 @@ export default function Layout() {
     <main>
     <Outlet />
     </main>
-    <Footer />
+    <Footer isHomePage={isHomePage}/>
     </>
   )
 }

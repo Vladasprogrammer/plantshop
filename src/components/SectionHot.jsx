@@ -7,7 +7,7 @@ export default function SectionHot() {
 
   
   return (
-    <section className='light-bg'>
+    <section className='section-hot light-bg'>
       <div className='wrapper'>
         <Title text1='Hottest' text2='Plants' showLink={true}/>
         <PlantCardsList filterType='hot' limit={8}/>

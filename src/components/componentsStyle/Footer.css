@@ -16,7 +16,9 @@
 }
 
 .footer-social {
+  display: flex;
   margin: 0 8px;
+  column-gap: 20px;
 }
 
 .footer-banner {

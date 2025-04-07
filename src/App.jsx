@@ -6,6 +6,7 @@ import Products from './pages/Products';
 import Contact from './pages/Contact';
 import Page404 from './pages/Page404';
 import { Route, Routes } from 'react-router-dom';
+import Product from './pages/Product';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route index element={<Home />}/>
           <Route path='about' element={<About />}/>
           <Route path='products' element={<Products />}/>
+          <Route path='products/:id' element={<Product />}/>
           <Route path='contact' element={<Contact />}/>
           <Route path='*' element={<Page404 />}/>
         </Route>

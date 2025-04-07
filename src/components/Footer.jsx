@@ -6,10 +6,10 @@ import tw from '../images/Socials/twitter.svg';
 import './componentsStyle/Footer.css';
 
 
-export default function Footer() {
+export default function Footer({ isHomePage }) {
 
   return (
-    <footer>
+    <footer className={`${isHomePage ? '' : 'light-bg'}`}>
       <div className="second-menu wrapper">
         <nav className='footer-menu'>
           <a href="">Products</a>

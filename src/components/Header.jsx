@@ -7,7 +7,7 @@ import { Link, NavLink } from 'react-router-dom';
 
 export default function Header() {
     return (
-        <div className='green-bg'>
+        <div className='header-bg'>
             <div className='wrapper header'>
                 <Link to='/' ><img src={Logo} alt="Logo" /></Link>
                 <nav className='header-links'>
